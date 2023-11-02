@@ -33,7 +33,7 @@ class About extends Component {
                   <p className="address">
                     <span>
                       {name}<br />
-                      Mobile: {phone}<br />
+                      {/* Mobile: {phone}<br /> */}
                       Email: {email}<br />
                       {this.props.data.address.line1}<br />
                       {this.props.data.address.line2}<br />
@@ -43,7 +43,7 @@ class About extends Component {
                 </div>
                 <div className="columns download">
                   <p>
-                    <a href={resumeDownload} className="button">
+                    <a href={resumeDownload} className="button" target="_blank">
                       <i className="fa fa-download"></i>Download Resume
                     </a>
                   </p>
